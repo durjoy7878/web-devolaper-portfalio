@@ -45,7 +45,36 @@ nav>ul>li>a{
     display: flex;
     padding: 30px 30px 30px 150px;
     align-items: center;
+    justify-content: space-between;
 }
 .profile_pic{
-    width: 500px;
+    width: 300px;
+    border-radius: 1000px;
+    
+}
+.btn_primary{
+    margin-right: 5px;
+}
+.banner_getting{
+    margin-bottom: 5px;
+}
+.banner_title{
+    margin-bottom: 5px;
+}
+.discription{
+    margin-bottom: 5px;
+
+}
+.about{
+    text-align: center;
+    padding: 120px 120px;
+    background-color: bisque;
+    margin: 50px 300px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info-container>.aboutinfo{
+    margin: 50px;
 }
