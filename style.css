@@ -1,0 +1,38 @@
+*{padding: 0px; margin: 0px;}
+body{
+    
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+nav{
+
+    display:flex; justify-content: space-between; align-items: center;
+}
+.nav_title{
+    font-size: 45px;
+    font-weight:800;
+    color: black;
+}
+.primary_color{
+    color:orange;
+}
+nav>ul{
+    display: flex; align-items: center;
+}
+nav>ul>li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav>ul>li>a{
+    text-decoration: none; color:gray;
+}
+.btn_primary{
+    border-radius: 5px; background-color: orange;
+    border: 0px; font-size: 20px; font-weight: 700px;
+    padding: 15px 35px; color: azure;
+}
